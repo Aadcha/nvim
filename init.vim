@@ -1,8 +1,11 @@
 set nocompatible
-set mouse=a " please dont bully me for this lmao
 set number
 set nowrap
 set autoindent
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=2
 set smarttab
 set incsearch
 set ruler
@@ -20,7 +23,6 @@ Plug 'junegunn/fzf' " fuzzy finder
 Plug 'junegunn/fzf.vim' " fuzzy finder
 Plug '907th/vim-auto-save' " auto-save
 Plug 'Yggdroot/indentLine' " indent lines
-Plug 'dense-analysis/ale' " syntax check
 Plug 'morhetz/gruvbox' " colorscheme
 Plug 'arcticicestudio/nord-vim' " colorscheme
 call plug#end()
